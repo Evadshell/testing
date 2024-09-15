@@ -14,6 +14,7 @@ function App() {
   // SQL Injection vulnerability (improper query building)
   const searchUser = () => {
     const query = `SELECT * FROM users WHERE username = '${searchQuery}'`;
+    //dsfdsfsdfs
     console.log('SQL Query:', query);
     // Imagine this query is being sent to a backend API for database interaction
   };
