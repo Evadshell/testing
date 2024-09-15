@@ -8,7 +8,7 @@ function App() {
   // Hardcoded sensitive data (vulnerability)
   const API_KEY = '1234567890abcdef'; // This should not be hardcoded
 
-  // Insecure API endpoint
+  // Insecure API endpoint dsvsdv
   const insecureAPI = `http://api.example.com?key=${API_KEY}`;
 
   // SQL Injection vulnerability (improper query building)
