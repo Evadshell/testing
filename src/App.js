@@ -19,7 +19,7 @@ function App() {
     // Imagine this query is being sent to a backend API for database interaction
   };
 
-  // XSS vulnerability (unsafe rendering of user input)
+  // XSS vulnerability (unsafe rendering of user input) kkk
   const handleSubmit = (e) => {
     e.preventDefault();
     document.getElementById('output').innerHTML = `<h1>Welcome, ${username}</h1>`;
